@@ -1,0 +1,36 @@
+*.pyc
+media/
+/env
+/conf
+/__pycache__/**
+
+# Node stuff
+lambdas/pdf_generator/node_modules
+lambdas/pdf_generator/*.zip
+lambdas/garmin_pull/env
+lambdas/garmin_pull/*.zip
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+
+
+# IDE
+.idea
+.vscode
+
+*.pyc
+**/migrations/*.__pycache__
+**/migrations/__pycache__/*.pyc
+*Zone.Identifier
+
+*.pem
+
+# Stress tests reports and logs
+stress_tests/reports/
+stress_tests/log.jtl
+stress_tests/jmeter.log
+
+file
